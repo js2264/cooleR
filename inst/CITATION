@@ -1,0 +1,16 @@
+bibentry(
+    bibtype = "Article",
+    author = c(
+        person(c("Jacques"), "Serizay"),
+        person(c("Cyril"), "Matthey-Doret"),
+        person(c("Amaury"), "Bignaud"),
+        person(c("Lyam"), "Baudry"),
+        person(c("Romain"), "Koszul")
+    ),
+    title = "Orchestrating chromosome conformation capture analysis with Bioconductor",
+    journal = "Nature Communications",
+    year = "2024",
+    volume = "15",
+    pages = "1--9",
+    doi =  "10.1038/s41467-024-44761-x"
+)

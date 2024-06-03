@@ -1,5 +1,6 @@
 <!-- badges: start -->
-[![](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
+[![DOI](https://img.shields.io/badge/Nat._Commun-10.1038/s41467--024--44761--x-blue)](https://www.nature.com/articles/s41467-024-44761-x)
+[![](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://www.tidyverse.org/lifecycle/#stable)
 [![](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![rworkflows](https://github.com/js2264/HiContacts/actions/workflows/rworkflows.yml/badge.svg)](https://github.com/js2264/HiContacts/actions/workflows/rworkflows.yml)
 [![Documentation](https://github.com/js2264/HiContacts/workflows/pkgdown/badge.svg)](https://js2264.github.io/HiContacts)
