@@ -39,6 +39,7 @@ getCompartments <- function(
     message( "Going through preflight checklist..." )
     # - Check resolutions and chromosome subset
     if (is.null(resolution)) resolution <- resolution(x)
+    resolution <- as.integer(resolution)
     chrs <- GenomicRanges::seqnames(GenomeInfoDb::seqinfo(x))
     names(chrs) <- chrs
     if (!is.null(chromosomes)) chrs <- chrs[chromosomes]
