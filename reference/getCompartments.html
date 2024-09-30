@@ -4,7 +4,7 @@ chromosome compartments."><!-- mathjax --><script src="https://cdnjs.cloudflare.
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]--></head><body data-spy="scroll" data-target="#toc">
-    
+
 
     <div class="container template-reference-topic">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -32,20 +32,20 @@ chromosome compartments."><!-- mathjax --><script src="https://cdnjs.cloudflare.
       </ul><ul class="nav navbar-nav navbar-right"><li>
   <a href="https://github.com/js2264/HiContacts/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
-     
+
   </a>
 </li>
       </ul></div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-      
+
 
       </header><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Contact map compartments</h1>
-    <small class="dont-index">Source: <a href="https://github.com/js2264/HiContacts/blob/HEAD/R/compartments.R" class="external-link"><code>R/compartments.R</code></a></small>
+    <small class="dont-index">Source: <a href="https://github.com/js2264/HiContacts/blob/devel/R/compartments.R" class="external-link"><code>R/compartments.R</code></a></small>
     <div class="hidden name"><code>getCompartments.Rd</code></div>
     </div>
 
@@ -68,40 +68,40 @@ chromosome compartments.</p>
 
     <div id="arguments">
     <h2>Arguments</h2>
-    <dl><dt>x</dt>
+
+
+<dl><dt id="arg-x">x<a class="anchor" aria-label="anchor" href="#arg-x"></a></dt>
 <dd><p>A <code>HiCExperiment</code> object over a full genome</p></dd>
 
 
-<dt>resolution</dt>
+<dt id="arg-resolution">resolution<a class="anchor" aria-label="anchor" href="#arg-resolution"></a></dt>
 <dd><p>Which resolution to use to compute eigen vectors</p></dd>
 
 
-<dt>genome</dt>
+<dt id="arg-genome">genome<a class="anchor" aria-label="anchor" href="#arg-genome"></a></dt>
 <dd><p>a BSgenome of DNAStringSet object associated with the Hi-C
 contact matrix.</p></dd>
 
 
-<dt>chromosomes</dt>
+<dt id="arg-chromosomes">chromosomes<a class="anchor" aria-label="anchor" href="#arg-chromosomes"></a></dt>
 <dd><p>character or integer vector indicating which</p></dd>
 
 
-<dt>neigens</dt>
+<dt id="arg-neigens">neigens<a class="anchor" aria-label="anchor" href="#arg-neigens"></a></dt>
 <dd><p>Numver of eigen vectors to extract</p></dd>
 
 
-<dt>sort_eigens</dt>
+<dt id="arg-sort-eigens">sort_eigens<a class="anchor" aria-label="anchor" href="#arg-sort-eigens"></a></dt>
 <dd><p>Can be FALSE or one of c('Spearman', 'Pearson')</p></dd>
 
 
-<dt>BPPARAM</dt>
+<dt id="arg-bpparam">BPPARAM<a class="anchor" aria-label="anchor" href="#arg-bpparam"></a></dt>
 <dd><p>BiocParallel parallelization settings</p></dd>
 
 </dl></div>
     <div id="value">
     <h2>Value</h2>
-    
-
-<p>A <code>HiCExperiment</code> object with additional <code>eigens</code> metadata containing the
+    <p>A <code>HiCExperiment</code> object with additional <code>eigens</code> metadata containing the
 normalized eigenvectors and a new "compartments" topologicalFeatures
 storing A and B compartments as a GRanges object.</p>
     </div>
@@ -173,15 +173,15 @@ storing A and B compartments as a GRanges object.</p>
 </div>
 
 <div class="pkgdown">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.9.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
 </div>
 
       </footer></div>
 
-  
 
 
-  
+
+
 
   </body></html>
 

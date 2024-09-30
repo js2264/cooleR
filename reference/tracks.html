@@ -3,7 +3,7 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]--></head><body data-spy="scroll" data-target="#toc">
-    
+
 
     <div class="container template-reference-topic">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -31,20 +31,20 @@
       </ul><ul class="nav navbar-nav navbar-right"><li>
   <a href="https://github.com/js2264/HiContacts/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
-     
+
   </a>
 </li>
       </ul></div><!--/.nav-collapse -->
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-      
+
 
       </header><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Aligning tracks with HiCExperiment objects</h1>
-    <small class="dont-index">Source: <a href="https://github.com/js2264/HiContacts/blob/HEAD/R/tracks.R" class="external-link"><code>R/tracks.R</code></a></small>
+    <small class="dont-index">Source: <a href="https://github.com/js2264/HiContacts/blob/devel/R/tracks.R" class="external-link"><code>R/tracks.R</code></a></small>
     <div class="hidden name"><code>tracks.Rd</code></div>
     </div>
 
@@ -53,31 +53,29 @@
     </div>
 
     <div id="ref-usage">
-    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="co"># S4 method for HiCExperiment</span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="co"># S4 method for class 'HiCExperiment'</span></span>
 <span><span class="fu"><a href="https://rdrr.io/pkg/IRanges/man/coverage-methods.html" class="external-link">coverage</a></span><span class="op">(</span><span class="va">x</span>, use.pairs <span class="op">=</span> <span class="cn">FALSE</span>, bin.size <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/pkg/HiCExperiment/man/AllGenerics.html" class="external-link">resolution</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div id="arguments">
     <h2>Arguments</h2>
-    <dl><dt>x</dt>
+
+
+<dl><dt id="arg-x">x<a class="anchor" aria-label="anchor" href="#arg-x"></a></dt>
 <dd><p>A <code>HiCExperiment</code> object over a full genome</p></dd>
 
 
-<dt>use.pairs</dt>
+<dt id="arg-use-pairs">use.pairs<a class="anchor" aria-label="anchor" href="#arg-use-pairs"></a></dt>
 <dd><p>logical. Whether to use pairsFile to compute Hi-C coverage</p></dd>
 
 
-<dt>bin.size</dt>
+<dt id="arg-bin-size">bin.size<a class="anchor" aria-label="anchor" href="#arg-bin-size"></a></dt>
 <dd><p>if <code>use.pairs == TRUE</code>, to which resolution</p></dd>
 
 </dl></div>
     <div id="value">
     <h2>Value</h2>
-    
-
-<p>A <code>HiCExperiment</code> object with 2 added columns in <code>regions(x)</code></p>
-
-
+    <p>A <code>HiCExperiment</code> object with 2 added columns in <code>regions(x)</code></p>
     </div>
 
     <div id="ref-examples">
@@ -129,15 +127,15 @@
 </div>
 
 <div class="pkgdown">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.9.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
 </div>
 
       </footer></div>
 
-  
 
 
-  
+
+
 
   </body></html>
 
